@@ -44,7 +44,7 @@ import java.util.List;
  */
 @State(
         name = "LatexSettings",
-        storages = @Storage(id = "other", file = "$APP_CONFIG$/latex.xml")
+        storages = @Storage(/*id = "other",*/ file = "$APP_CONFIG$/latex.xml")
 )
 public class LatexSettings implements PersistentStateComponent<Element>, Listenable<LatexSettings.Listener> {
     /** Settings keys. */
